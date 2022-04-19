@@ -1,0 +1,19 @@
+{
+  "name": "test-package-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.70.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.1"
+  }
+}
