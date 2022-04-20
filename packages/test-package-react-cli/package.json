@@ -1,6 +1,6 @@
 {
   "name": "test-package-react-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "test-package-jacky-utils": "^1.1.1"
+    "test-package-jacky-utils": "^1.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
