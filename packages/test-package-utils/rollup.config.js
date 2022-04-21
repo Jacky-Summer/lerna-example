@@ -2,9 +2,12 @@ export default {
   input: './src/index.js',
   output: [
     {
-      file: './dist/index.umd.js',
-      name: 'utils',
-      format: 'umd',
+      format: 'cjs',
+      file: './dist/index.cjs.js',
+    },
+    {
+      format: 'es',
+      file: './dist/index.es.js',
     },
   ],
 }
