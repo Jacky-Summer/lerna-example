@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import utils from 'test-package-jacky-utils'
+import { add } from 'test-package-jacky-utils'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  console.log('utils', utils)
+  console.log('add:', add(1, 2))
   return <div className="App">test package</div>
 }
 
